@@ -2,8 +2,8 @@
   "name": "todolist",
   "version": "1.0.0",
   "description": "todolist created",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "jest"
   },
   "author": "Manas Pant",
