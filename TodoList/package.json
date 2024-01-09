@@ -1,0 +1,11 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "todolist created",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Manas Pant",
+  "license": "ISC"
+}
