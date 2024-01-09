@@ -1,0 +1,1 @@
+export const createTaskId = (taskName)=>taskName.toLowerCase().replace(/[^a-z]/g, "");

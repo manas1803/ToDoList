@@ -1,0 +1,1 @@
+export const getTaskId = (event)=>event.target.dataset.id
