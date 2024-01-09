@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useId } from "react";
 import { useForm } from "react-hook-form";
+import { useTodo } from "../../context/Todo";
+import uuid from "react-uuid";
 
 const TodoListForm = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
+  const { setTodoList } = useTodo();
 
   const onSubmit = (data) => {
-    console.log("Form data ", data);
+    const id = uuid();
+    console.log(id);
+    reset();
   };
 
   return (
