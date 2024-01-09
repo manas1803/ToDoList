@@ -7,5 +7,12 @@
     "test": "jest"
   },
   "author": "Manas Pant",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
 }
